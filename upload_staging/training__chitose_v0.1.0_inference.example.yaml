@@ -1,0 +1,9 @@
+custom:
+  bert_base_path: C:/path/to/GPT-SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: C:/path/to/GPT-SoVITS/pretrained_models/chinese-hubert-base
+  device: cuda
+  is_half: true
+  t2s_weights_path: C:/path/to/Chitose-v0.1.0-GPT.ckpt
+  version: v2
+  vits_weights_path: C:/path/to/Chitose-v0.1.0-SoVITS.pth
+

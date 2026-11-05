@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "meaning": {
+    "high_ids": "High-confidence Chisato subtitle events. They still route to review if an unselected subtitle overlaps or the merged clip is shorter than one second.",
+    "probable_ids": "Likely Chisato events with speaker, overlap, brevity, effects, or scene-context uncertainty. They always route to review."
+  },
+  "warning": "ASS speaker names are not reliable. These IDs are inferred, not ground truth.",
+  "episodes": {
+    "EP03": {
+      "high_ids": [
+        24, 25, 27, 31, 33, 36, 38, 40, 50, 52, 54, 57, 60, 61, 64, 65,
+        67, 69, 72, 73, 75, 78, 80, 84, 89, 93, 99, 100, 101, 102, 104, 105,
+        108, 110, 112, 115, 119, 123, 126, 128, 130, 132, 135, 138, 140, 143,
+        144, 145, 149, 151, 152, 156, 157, 159, 160, 162, 166, 186, 187, 192,
+        200, 213, 216, 218, 220, 222, 224, 225, 228, 229, 230, 235, 236, 242,
+        244, 245, 246, 247, 248, 250, 252, 253, 255, 256, 257, 259, 260, 262,
+        263, 264, 269, 271, 272, 273, 274, 275, 276, 277, 279, 280, 281, 282,
+        283, 304, 307, 309, 311, 312, 316, 318, 355, 364, 372, 373, 374, 375,
+        376, 377, 379, 382, 385, 386
+      ],
+      "probable_ids": [8, 137, 322, 325, 326, 328, 329, 333, 334, 335, 336, 337, 338, 339, 340, 348],
+      "note": "Dialogue turns were checked against the EP03 DA visit, fountain conversation and mock-battle context. Battle and flashback lines are review candidates because of effects/music; the unusually quiet opening line is also review-only."
+    },
+    "EP04": {
+      "high_ids": [
+        2, 4, 10, 11, 12, 14, 15, 17, 18, 19, 22, 23, 26, 28, 29, 32, 33,
+        34, 35, 37, 39, 42, 44, 46, 47, 50, 53, 55, 56, 58, 59, 62, 64, 66,
+        68, 69, 71, 72, 74, 75, 90, 91, 92, 93, 94, 96, 99, 100, 102, 105,
+        108, 109, 111, 113, 114, 119, 120, 122, 124, 126, 127, 128, 131, 132,
+        134, 136, 139, 140, 142, 144, 145, 146, 148, 149, 150, 151, 152, 155,
+        156, 158, 159, 160, 162, 163, 165, 166, 169, 171, 174, 175, 178, 180,
+        182, 184, 186, 187, 189, 190, 191, 192, 193, 196, 197, 198, 199, 200,
+        203, 204, 205, 207, 208, 209, 210, 213, 219, 220, 221, 222, 223, 273,
+        274, 275, 276, 318, 319, 320
+      ],
+      "probable_ids": [
+        228, 229, 231, 234, 235, 292, 293, 294, 296, 298, 299, 300, 303, 305,
+        307, 308, 310, 313, 323, 324, 325, 326
+      ],
+      "note": "The shopping/aquarium dialogue was traced turn by turn. Child-interaction uncertainty and the crowded final underwear gag are routed to review."
+    },
+    "EP05": {
+      "high_ids": [
+        13, 36, 39, 40, 42, 47, 49, 52, 56, 58, 60, 65, 66, 67, 74, 75,
+        76, 77, 79, 80, 83, 84, 85, 86, 87, 88, 90, 114, 115, 116, 119, 122,
+        125, 136, 137, 139, 141, 142, 148, 150, 151, 153, 154, 155, 156, 158,
+        182, 191, 193, 223, 225, 227, 229, 230, 231, 233, 234, 235, 236, 237,
+        238, 244, 245, 248, 251, 252, 273, 274, 275, 276, 299, 303, 304, 305,
+        312, 314, 315, 318
+      ],
+      "probable_ids": [25, 38, 255, 256, 262, 265, 272, 279, 280, 281, 282, 283, 284],
+      "note": "Tour-guide turns, the artificial-heart discussion and the Matsushita reveal were checked against scene order. Battle/collapse lines, one early briefing response and a transient-heavy near-0 dBFS line are review candidates."
+    },
+    "EP06": {
+      "high_ids": [
+        7, 9, 13, 15, 17, 20, 22, 23, 24, 26, 28, 30, 31, 34, 37, 60, 64,
+        67, 137, 139, 152, 155, 157, 158, 160, 161, 163, 164, 215, 216, 218,
+        221, 222, 224, 227, 229, 230, 317, 327, 336, 340, 343, 345
+      ],
+      "probable_ids": [136, 193, 194, 258, 286, 294, 300, 301, 303, 312],
+      "note": "Cohabitation, safe-house and post-fight dialogue were checked against turn order. Rock-paper-scissors overlaps were excluded; uncertain group-analysis and battle lines are review-only."
+    },
+    "EP07": {
+      "high_ids": [
+        26, 27, 32, 33, 41, 43, 46, 48, 49, 55, 62, 64, 67, 68, 70, 86, 88,
+        94, 98, 100, 168, 176, 187, 188, 189, 191, 192, 194, 212, 215, 220,
+        221, 223, 225, 229, 231, 233, 234, 236, 239, 240, 242, 244, 245, 248,
+        250, 251, 252, 255, 256, 257, 259, 260, 265, 267, 271, 272, 274, 279,
+        281, 288, 290, 292, 295, 296, 300, 301, 303, 304, 307, 308, 309,
+        310, 311, 312, 315, 316, 329, 331, 332, 360, 362, 363, 364, 366, 374,
+        377, 382, 383, 396, 399, 404, 406, 408, 412
+      ],
+      "probable_ids": [298, 421],
+      "note": "Cafe, Forbidden-bar infiltration and Yoshimatsu conversation turns were followed in sequence. The unusually quiet one-word JP298 and the out-of-order overlapping JP421 are review-only."
+    },
+    "EP08": {
+      "high_ids": [
+        15, 18, 21, 24, 25, 35, 40, 43, 45, 46, 48, 52, 60, 61, 63, 71,
+        73, 74, 77, 90, 91, 92, 96, 98, 100, 101, 102, 103, 104, 105, 125,
+        127, 130, 131, 132, 134, 136, 137, 139, 141, 144, 149, 151, 153, 155,
+        157, 158, 161, 167, 169, 174, 177, 179, 180, 181, 183, 192, 194, 195,
+        198, 201, 203, 205, 207, 209, 210, 211, 213, 215, 218, 232, 234, 237,
+        238, 239, 240, 242, 244, 245, 248, 249, 251, 253, 256, 258, 262, 264,
+        265, 270, 271, 275, 278, 280, 282, 284, 287, 289, 290, 293, 295, 297,
+        299, 300, 301, 304, 305, 307, 309, 311, 314, 317, 318, 320, 322, 323,
+        325, 330
+      ],
+      "probable_ids": [20, 272, 229, 231],
+      "note": "Cafe, Majima safe-house confrontation and clinic turns were traced speaker by speaker. The flashback/effects lines and one ambiguous Mika-address turn are review-only; robot-voice repetitions were excluded."
+    },
+    "EP09": {
+      "high_ids": [
+        9, 15, 18, 28, 30, 32, 33, 35, 36, 38, 40, 42, 43, 44, 46, 47,
+        50, 52, 54, 55, 56, 60, 62, 64, 66, 67, 68, 69, 70, 72, 75, 78,
+        80, 81, 82, 83, 85, 87, 90, 92, 106, 110, 112, 114, 115, 117, 118,
+        119, 238, 240, 241, 242, 244, 245, 248, 249, 251, 253, 254, 255, 257,
+        259, 261, 262, 263, 265, 267, 268, 269, 270, 272, 274, 276, 278, 280,
+        283, 285, 286, 288, 290, 293, 294, 295, 296, 297, 298, 299, 301, 303
+      ],
+      "probable_ids": [
+        179, 180, 182, 184, 185, 189, 190, 191, 192, 194, 195, 197, 199, 200,
+        201, 203, 234, 235, 236
+      ],
+      "note": "Hospital, DA negotiation, field handoff and the final Chisato-Takina outing were traced in sequence. Childhood Chisato and crowded repeated cafe greetings are review-only because their tone or speaker separation is atypical."
+    },
+    "EP10": {
+      "high_ids": [
+        7, 11, 12, 13, 14, 16, 17, 18, 19, 20, 22, 24, 26, 28, 30, 33,
+        34, 35, 76, 77, 79, 86, 87, 88, 90, 115, 117, 118, 120, 123, 125,
+        127, 128, 130, 206, 207, 209, 214, 217, 219, 222, 223, 225, 228, 229,
+        231, 232, 233, 234, 235, 238, 261, 262, 263, 268, 273, 274, 275, 276,
+        277, 278, 279, 280, 281, 282, 283, 285, 286, 287, 346, 347, 356, 357,
+        361, 363, 364, 367, 370
+      ],
+      "probable_ids": [9, 10, 82],
+      "note": "Cafe closure, farewells, kimono conversation, Mika reveal and final split-phone sequence were followed turn by turn. The playful opening vocalization and one crowded farewell response are review-only."
+    },
+    "EP11": {
+      "high_ids": [
+        225, 227, 228, 230, 231, 234, 250, 251, 252, 254, 256, 257, 259, 267,
+        272, 281, 285
+      ],
+      "probable_ids": [237, 238, 239, 240, 241, 242, 244, 245, 246, 247, 248, 249],
+      "note": "Chisato is absent from most of EP11; only the departure, old-radio-tower evacuation and Majima confrontation were selected. Evacuation/action calls with strong effects are review-only."
+    },
+    "EP12": {
+      "high_ids": [
+        18, 19, 28, 29, 32, 33, 37, 39, 41, 47, 49, 50, 51, 53, 54, 61,
+        80, 82, 83, 85, 91, 92, 93, 95, 96, 98, 99, 101, 103, 104, 105,
+        106, 107, 108, 112, 115, 117, 119, 120, 121, 122, 128, 131, 134, 136,
+        138, 140, 143, 146, 148, 150, 180, 181, 296, 297, 299, 303, 317, 320,
+        321, 323, 327, 329
+      ],
+      "probable_ids": [2, 4, 6, 109, 110, 111, 182, 333],
+      "note": "Old-radio-tower Yoshimatsu confrontation, helicopter briefing and post-rescue turns were checked against the alternating speakers. Opening gunfight, ambiguous rescue handoff, group response and the final Majima greeting are review-only."
+    },
+    "EP13": {
+      "high_ids": [
+        129, 130, 132, 133, 136, 137, 138, 139, 140, 141, 142, 143, 144,
+        145, 146, 147, 149, 150, 151, 153, 157, 231, 232, 233, 239, 241, 243,
+        245, 247, 263, 265, 266, 268, 270, 271, 272, 273, 275, 277, 278, 281,
+        282, 283, 284, 286, 287, 288, 289, 291, 296, 297, 299, 301, 311, 312,
+        313, 315, 317, 319, 321, 323, 324, 326, 329, 331, 333, 334, 335, 337,
+        338, 340, 349, 352, 354
+      ],
+      "probable_ids": [
+        28, 30, 32, 35, 37, 40, 70, 72, 73, 86, 90, 93, 96, 100, 104,
+        105, 159, 160, 161, 163
+      ],
+      "note": "Majima debate, hospital escape, island reunion and Hawaii epilogue were traced in scene order. Active-fight lines and the countdown climax are review-only; the long reflective exchange and reunion dialogue are clean candidates."
+    }
+  }
+}
