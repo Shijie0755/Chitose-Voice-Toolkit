@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Local paths, generated media and datasets
+GPT-SoVITS/
+datasets/
+work/
+outputs/
+generated/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.mkv
+*.mp4
+*.ass
+*.srt
+*.tsv
+*.list
+
+# Model binaries are distributed through GitHub Releases.
+*.pth
+*.ckpt
+
+# Local inference configuration may contain machine-specific paths.
+*inference.yaml
+!*inference.example.yaml
+

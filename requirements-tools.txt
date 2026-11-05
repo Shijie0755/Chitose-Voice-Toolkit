@@ -1,0 +1,8 @@
+fastapi>=0.115
+numpy>=1.26
+python-multipart>=0.0.9
+PyYAML>=6.0
+soundfile>=0.12
+tkinterdnd2>=0.4
+uvicorn>=0.30
+
